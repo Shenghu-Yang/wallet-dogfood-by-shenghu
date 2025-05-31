@@ -1,0 +1,55 @@
+shenghu@ dogfooding  $ npx tsx index.ts
+Debugger attached.
+(node:72292) ExperimentalWarning: CommonJS module /opt/homebrew/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /opt/homebrew/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Debugger attached.
+Debugger attached.
+
+Signer Address: Promise {
+  '0x04aB0ce6b0a311EeFb6165CFde46e3069953Ec24',
+  [Symbol(async_id_symbol)]: 146,
+  [Symbol(trigger_async_id_symbol)]: 113
+}
+(node:72325) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+Smart Account Address: 0xa7532d5c009F8946A67cFf19433A1f419701562F
+
+Prepared User Operation: {
+  type: 'user-operation-v070',
+  data: {
+    factory: '0x00000000000017c61b5bEe81050EC8eFc9c6fecd',
+    factoryData: '0x8b4e464e00000000000000000000000004ab0ce6b0a311eefb6165cfde46e3069953ec240000000000000000000000000000000000000000000000000000000000000000',
+    sender: '0xa7532d5c009F8946A67cFf19433A1f419701562F',
+    nonce: '0x10000000000000000',
+    callData: '0x34fcd5be0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000',
+    paymaster: '0x2cc0c7981D846b9F2a16276556f6e8cb52BfB633',
+    paymasterData: '0x0000000000000000683b837024b4ec00ca3bbb8f8674cd2f1e1f8be53761d02e607a6afcdaa447f2f5a2bedf37c66fd68d140a1703b96cf3def43169b7441a57cd8d264e0d707c3f6851182a1c',
+    paymasterPostOpGasLimit: '0x0',
+    paymasterVerificationGasLimit: '0x754e',
+    maxPriorityFeePerGas: '0x60e4b0',
+    maxFeePerGas: '0x951b630',
+    callGasLimit: '0x2bb8',
+    verificationGasLimit: '0x25f3c',
+    preVerificationGas: '0xbe5c'
+  },
+  chainId: '0x66eee',
+  signatureRequest: {
+    type: 'personal_sign',
+    data: {
+      raw: '0x07712c79304db31757a57497db014b71c22ec3b327771620d15430ae32297e08'
+    }
+  }
+}
+
+Signature: {
+  type: 'ecdsa',
+  signature: '0xa8b764933ada3ed4f56d11caaf82d9cbd0608cd42e2a653fd45d900c191161c14b7db2e243a0172f02c5eaada440007a52996150ec861fb2238aa1c65ac7f72d1b'
+}
+
+Result: {
+  preparedCallIds: [
+    '0x0000000000000000000000000000000000000000000000000000000000066eee07712c79304db31757a57497db014b71c22ec3b327771620d15430ae32297e08'
+  ]
+}
