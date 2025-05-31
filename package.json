@@ -1,0 +1,19 @@
+{
+  "name": "dogfooding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsx": "^4.19.4"
+  },
+  "dependencies": {
+    "@aa-sdk/core": "^4.36.1",
+    "@account-kit/infra": "^4.36.1",
+    "@account-kit/wallet-client": "^0.1.0-alpha.4"
+  }
+}
