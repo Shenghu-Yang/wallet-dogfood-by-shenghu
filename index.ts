@@ -29,6 +29,8 @@ async function main() {
   // Get the address
   const address = account.address;
   console.log("\nSmart Account Address:", address);
+  const address_solana = account.solanaAddress;
+  console.log("\nSolana Address:", address_solana);
 
   // // Sign a message
   // const message = "Hello World!";
