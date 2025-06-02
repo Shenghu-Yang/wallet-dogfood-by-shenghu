@@ -11,6 +11,8 @@ async function main() {
   );
 
   console.log("\nSigner Address:", signer.getAddress());
+  const address_solana = signer.solanaAddress;
+  console.log("\nSolana Address:", address_solana);
 
   const transport = alchemy({
     apiKey: "",
@@ -29,8 +31,6 @@ async function main() {
   // Get the address
   const address = account.address;
   console.log("\nSmart Account Address:", address);
-  const address_solana = account.solanaAddress;
-  console.log("\nSolana Address:", address_solana);
 
   // // Sign a message
   // const message = "Hello World!";
